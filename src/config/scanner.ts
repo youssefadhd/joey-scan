@@ -1,0 +1,11 @@
+export const CAMERA_WIDTH = 1280
+export const CAMERA_HEIGHT = 720
+export const CAMERA_MAX_WIDTH = 1920
+export const CAMERA_MAX_HEIGHT = 1080
+export const CAMERA_FRAME_RATE = 30
+const baseUrl = import.meta.env.BASE_URL
+export const FACE_MODEL_PATH = `${baseUrl}models/face_landmarker.task`
+export const MEDIAPIPE_WASM_PATH = `${baseUrl}wasm`
+export const MAX_CANVAS_DPR = 2
+export const LOW_MEMORY_CANVAS_DPR = 1.5
+export const FACE_DETECTION_CONFIDENCE = 0.5
